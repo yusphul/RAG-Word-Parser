@@ -95,7 +95,7 @@ class DocxParser:
         
         return chunks
     
-    def chunk_text(self, text: str) -> List[Dict]:
+    def process_document(self, file_path: str) -> List[Dict]:
         """
         Complete pipeline: parse DOCX and create chunks.
         
